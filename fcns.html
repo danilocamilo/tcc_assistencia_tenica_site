@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <link href="style/bootstrap.css" rel="stylesheet" />
+    <link href="style/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="for.css"/>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+<style type="text/css">
+     body{
+       background-image: url('imgs/baseacesso.jpg');
+       background-size: 100%;
+       background-repeat: repeat;
+      }
+    </style>
+<script>
+    function wait(ms){
+        var d = new Date();
+        var d2 = null;
+        do { d2 = new Date(); }
+        while(d2-d < ms);
+    }
+    function deuCerto(){           
+
+        wait(1000)
+
+        window.alert(
+            "Mensagem enviada!"
+        )
+    }
+    function luislindo(){
+        ('html, body').scrollTop(0)
+    }
+    
+</script>    
+
+    <title>Fale Conosco</title>
+</head>
+<body>
+<nav class="menu">
+    <a href="#" id="luix"></a>
+ <div class="logo"></div>
+
+<ul>
+    <li><a href="Index.html" class="menu">Home</a></li>
+    <li><a href="servicos.html" class="menu">Serviços</a></li>
+    <li><a href="agendamento.html" class="menu">Agendamento</a></li>
+    <li><a href="qs.html" class="menu">Sobre nós</a></li>
+    <li><a href="Acesso.html" class="menu">Acesso</a></li>
+    <li><a href="fcns.html" class="menu">Fale Conosco</a></li>
+</ul>
+
+</nav>
+
+<div class="faixafc">
+	
+</div>
+
+
+<div class="divform" style="margin-left:28%;margin-top: -4% ;background-color:#fff; width: 530px; height:550px ; text-align: center; border-radius: 10px; border: solid; border-color: transparent;">
+
+       
+       <form id="validar()" action="fcns.html" method="post" onsubmit=deuCerto() name="dados">
+
+            <label style="color: #007AF4; text-align: left; margin-top: 26px">Nome Completo:<input id="nome" type="text" class="form-control" required="required"  placeholder="Inserir seu nome" size="42" maxlength="40" name="nome" value=""></label><br/>
+            
+            
+            <label style="color: #007AF4; text-align: left;">Email: <input type="email" id="email" class="form-control" placeholder="Inserir Email" size="42" maxlength="40" name="email" value="" required="required"></label><br/>
+
+            <label style="color: #007AF4; text-align: left;">Telefone: <input id="tel" type="tel" class="form-control" placeholder="Inserir telefone" size="42" maxlength="40" name="tel" value="" required="required" "/></label>
+
+              <label style="color: #007AF4; text-align: left; width: 87.5%;">Categoria <select class="form-control" id="cat"></label><br/>
+
+  <option value="t"> Todas as categorias </option>
+                <option value="e"> Elogios </option>
+                <option value="o"> Orientação </option>
+                <option value="r"> Reclamação </option>
+                <option value="s"> Solicitação </option>
+
+            </select>
+
+                
+                <p style="color: #007AF4">Mensagem:
+                <textarea class="form-control" id="msg" cols="40" rows="5" color="black" size="42" maxlength="200" placeholder="Faça uma Observação">
+                </textarea></p><br/>
+                
+                <input id="btn" name="btn" type="submit" class="form-control" value="Enviar" onClick="luislindo()" style="background-color: #007AF4; color: white;">
+        </form>
+</div>
+        </div>
+        </div>
+    
+    </div>
+
+</div>
+
+</div>
+        
+        <div>
+        <br/><br/><br/>
+</div>
+
+
+<div class="posictts">
+<div class="wpp">
+    <h1 class="formataicones"> (11)950471337 </h1>
+</div>    
+<div class="fb">
+    <h1 class="formataicones"> @JBD Tech </h1>
+</div>
+<div class="tt">
+    <h1 class="formataicones"> @JBD_Tech </h1>
+</div>
+<div class="ig">
+    <h1 class="formataicones"> @JBDTech </h1>
+</div>
+   
+</div>
+
+        
+
+
+
+<div class="body-content">
+    <footer class="fixarRodape">
+        <h1 class="editfoot2">EMAIL: jdb.tech@gmail.com | Tel: (11)95047-1337</h1>
+        
+        <p class="editfoot1">&copy; Copyright 2019 - JBD Tech</p>
+    </footer>
+</div>
+
+
+
+</body>
+</html>

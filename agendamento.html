@@ -1,0 +1,138 @@
+<!DOCTYPE html!>
+<html>
+<meta charset="UTF-8">
+<head>
+
+    <link href="style/bootstrap.css" rel="stylesheet" />
+    <link href="style/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="for.css"/>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+    <title>Agendamento</title>
+    <script>
+        function wait(ms){
+            var d = new Date();
+            var d2 = null;
+            do { d2 = new Date(); }
+            while(d2-d < ms);
+        }
+        function deuCerto(){           
+
+            wait(1000)
+
+            window.alert(
+                "Agendamento efetuado!"
+            )
+        }
+        function luislindo(){
+            ('html, body').scrollTop(0)
+        }
+        
+    </script>
+
+    <style type="text/css">
+        body{
+            background-image: url('imgs/baseacesso.jpg');
+            background-size: 100%;
+            background-repeat: repeat;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<nav class="menu">
+    <a href="#" id="luix"></a>
+ 
+ <div class="logo"></div>
+
+<ul>
+    <li><a href="Index.html" class="menu">Home</a></li>
+    <li><a href="servicos.html" class="menu">Serviços</a></li>
+    <li><a href="agendamento.html" class="menu">Agendamento</a></li>
+    <li><a href="qs.html" class="menu">Sobre nós</a></li>
+    <li><a href="Acesso.html" class="menu">Acesso</a></li>
+    <li><a href="fcns.html" class="menu">Fale Conosco</a></li>
+</ul>
+</nav>
+
+<div class="faixaagendamento">
+
+</div>
+
+<div class="divform" style="margin-left:39%">
+
+        <div style="position:absolute; margin-left: -11%; margin-top: -4%; width: 536px; height: 765px;">
+            <div class="" style="background-color:#fff; text-align: center; height: 700px; border-radius: 10px; border: solid; border-color: transparent;">
+            <div><br/></div>
+    <div>
+    <div>
+    
+        <form id="validar()" action="agendamento.html" onsubmit=deuCerto() method="post" name="dados">
+
+           
+
+            <label style="color: #007AF4; text-align: left;">Nome Completo:<input id="cpf" type="text" class="form-control" placeholder="Inserir seu nome" size="42" maxlength="40" name="nome" value="" required="required"  ></label>
+
+            <label style="color: #007AF4; text-align: left;">Email: <input type="email" id="email" class="form-control" placeholder="Inserir Email" size="42" maxlength="40" name="email" value="" required="required"></label>
+
+            <label style="color: #007AF4; text-align: left;">Telefone: <input id="tel" type="tel" class="form-control" placeholder="Inserir telefone" size="42" maxlength="40" name="tel" value="" required="required"></label>
+
+             <label style="color: #007AF4; text-align: left;">Marca:<input id="nome" type="text" class="form-control" required="required"  placeholder="Inserir a marca" size="42" maxlength="40" name="nome" value=""></label>
+            <label style="color: #007AF4; text-align: left;">Modelo:<input id="nome" type="text" class="form-control" required="required"  placeholder="Inserir o modelo" size="42" maxlength="40" name="nome" value=""></label>
+
+
+            <label style="color: #007AF4; text-align: left; width: 86.6%">Serviço <select class="form-control" id="cat"></label><br/>
+
+            <option value="e">Escolha o serviço</option>
+            <option value="t">Troca de tela</option>
+            <option value="c">Conserto/Troca de carcaça</option>
+            <option value="b">Troca de bateria</option>
+            <option value="r">Recuperação de aparelhos molhados</option>
+            <option value="cd">Configurações de celular</option>
+            <option value="p">Problemas de áudio</option>
+            <option value="n">Aparelho não carrega</option>
+            <option value="cb">Conserto de botões</option>
+            <option value="br">Backup/Restauração</option>
+            <option value="tc">Troca de conectores</option>
+            <option value="a">Aplicação de películas</option>
+            <option value="i">Instalação de acessórios</option>
+            <option value="s">Aparelho reiniciando sozinho</option>
+            <option value="n">Não reconhece o chip</option>
+            <option value="f">Câmera não funciona</option><br/>
+
+            </select>
+
+            <label> Observação:
+                <textarea  class="form-control" id="Obs" placeholder="Especifique seu problema" cols="40" rows="8" color="black" maxlength="300" size="40" style="width: 106%; height: 20%;"  ></textarea>
+
+            </label>
+            <br /><br />
+            <input id="btn" name="btn" type="submit" onclick="luislindo()" class="form-cont" value="Enviar" size="30" maxlength="30" style="background-color: #007AF4; color:white; width: 100%"><br /><br />
+            
+        </form>
+
+        </div>
+            </div>
+            <br/><br/><br />
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="body-content">
+    <footer class="fixarRodape">
+        <h1 class="editfoot2">EMAIL: jbd.tech@gmail.com | Tel: (11)95047-1337</h1>
+        
+        <p class="editfoot1">&copy; Copyright 2019 - JBD Tech</p>
+    </footer>
+</div>
+
+
+
+</body>
+</html>

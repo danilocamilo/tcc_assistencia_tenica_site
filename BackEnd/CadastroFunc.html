@@ -1,0 +1,116 @@
+<!DOCTYPE html!>
+<html>
+<meta charset="UTF-8">
+<head>
+    <script>
+        function wait(ms){
+            var d = new Date();
+            var d2 = null;
+            do { d2 = new Date(); }
+            while(d2-d < ms);
+        }
+        function deuCerto(){           
+
+            wait(1000)
+
+            window.alert(
+                "Cadastro efetuado!"
+            )
+        }
+        function luislindo(){
+            ('html, body').scrollTop(0)
+        }
+        
+    </script>
+
+    
+
+    <link href="style/bootstrap.css" rel="stylesheet" />
+    <link href="style/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="for.css"/>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+    <title>Cadastro de Funcionários</title>
+
+    <style type="text/css">
+        body{
+            background-image: url('imgs/baseacesso.jpg');
+            background-size: 100%;
+            background-repeat: repeat;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<nav class="menu">
+    <a href="#" id="luix"></a>
+ <div class="logo"></div>
+
+<ul>
+    <li><a href="Index.html" class="menu">Inicio</a></li>
+    <li><a href="CadastroFunc.html" class="menu">Cadastro de Funcionários</a></li>
+    <li><a href="msgs.html" class="menu">Mensagens</a></li>
+    <li><a href="acesso.html" class="menu">Sair</a></li>
+</ul>
+</nav>
+
+<div class="faixaagendamento">
+
+</div>
+
+<div class="divform" style="margin-left:39%">
+
+        <div style="position:absolute; margin-left: -11%; margin-top: -5%; width: 536px; height: 765px;">
+            <div class="" style="background-color:#fff; text-align: center; height: 530px; border-radius: 10px; border: solid; border-color: transparent;">
+            <div><br/></div>
+    <div>
+    <div>
+    
+        <form id="validar()" action="CadastroFunc.html" onsubmit=deuCerto() method="post" name="dados">
+
+           
+
+            <label style="color: #007AF4; text-align: left;">Nome Completo do Funcionário:<input id="nome" type="text" class="form-control" placeholder="Inserir Nome" size="42" maxlength="40" name="nome" value="" required="required"  ></label>
+
+            <label style="color: #007AF4; text-align: left;">E-mail: <input type="email" id="email" class="form-control" placeholder="Inserir Email" size="42" maxlength="40" name="email" value="" required="required"></label>
+
+            <label style="color: #007AF4; text-align: left;">Data de Nascimento: <input type="date" id="tel" type="tel" class="form-controldt" placeholder="Inserir Data de nascimento" size="42" maxlength="40" name="dtnc" value="" required="required"></label>
+
+            <label style="color: #007AF4; text-align: left;">Data de Admissão: <input type="date" id="tel" type="tel" class="form-controldt" placeholder="Inserir Data de nascimento" size="42" maxlength="40" name="dtad" value="" required="required"></label>
+            
+            <label style="color: #007AF4; text-align: left;">CPF:<input id="cpf" type="number" class="form-controlcf" placeholder="Inserir CPF" size="42" maxlength="40" name="cpf" value="" required="required"  ></label>
+
+            <label style="color: #007AF4; text-align: left;">CEP:<input id="cep" type="number" class="form-controlcf" placeholder="Inserir CEP" size="42" maxlength="40" name="cep" value="" required="required"  ></label>
+
+
+            <label style="color: #007AF4; text-align: left; width: 86.6%">Cargo <select class="form-controlsv" id="cat"></label><br/>
+
+            <option value="e">Técnico</option>
+            <option value="e">Gerente</option>
+            <option value="e">Sócio-Diretor</option>
+       
+
+            </select>
+
+            <br />
+            <input id="btn" name="btn" type="submit" class="form-cont" value="Enviar" onClick="luislindo()" size="30" maxlength="30" style="background-color: #007AF4; color:white; width: 100%; text-align: center;"><br /><br />
+            
+        </form>
+
+        </div>
+            </div>
+            <br/><br/><br />
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

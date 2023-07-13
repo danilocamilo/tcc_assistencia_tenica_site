@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+
+<head>
+<link rel="stylesheet" type="text/css" href="css.css">
+<script type="text/javascript" src="js/jQuery.js"></script>
+    <title>Index</title>
+    <style type="text/css">
+      body{
+        background-image: url('imgs/baseacesso.jpg');
+        background-size: 100%;
+        background-repeat: repeat;
+      }
+    </style>
+
+
+    <script type="text/javascript">
+        
+    $(function(){
+        let count = 0;
+        setInterval(function(){
+            count++;
+            if (count == 3) {
+                count = 0
+            }
+            $('div.slide div.container').css('left', count * -100 + '%');
+
+        },2500);
+    });
+
+    </script>
+</head>
+<body>
+<nav class="menu">
+ 
+ <div class="logo"></div>
+
+<ul>
+    <li><a href="Index.html" class="menu">Home</a></li>
+    <li><a href="servicos.html" class="menu">Serviços</a></li>
+    <li><a href="agendamento.html" class="menu">Agendamento</a></li>
+    <li><a href="qs.html" class="menu">Sobre nós</a></li>
+    <li><a href="Acesso.html" class="menu">Acesso</a></li>
+    <li><a href="fcns.html" class="menu">Fale Conosco</a></li>
+</ul>
+</nav>
+
+<div class="slide">
+  
+  <div class="container">
+      <div class="image" style="background-image: url('imgs/banner2edit.jpg')"></div>
+      <div class="image" style="background-image: url('imgs/banner1edit.jpg')"></div>
+      <div class="image" style="background-image: url('imgs/banner3edit.jpg')"></div>
+  </div>
+
+</div>
+
+<div class="icons">
+<div class="alignic">
+<a href="Servicos.html"><img src="imgs/iconeservicos.png" style="height: 200px; width: 200px"></a>
+<a href="Acesso.html"><img src="imgs/iconeacesso.png" style="height: 200px; width: 200px"></a>
+<a href="agendamento.html"><img src="imgs/iconeorcamento.png" style="height: 200px; width: 200px"></a>
+
+
+</div>
+    
+</div>
+
+<div class="posicel">
+   <p style="text-align: center"> <img src="imgs/bannercelular1.png" style="height: 100%; width: 90%"></p>
+
+</div>
+<br /><br /><br /><br /><br />
+
+
+<div class="container body-content">
+    <footer class="fixarRodape">
+        <h1 class="editfoot2">EMAIL: jbd.tech@gmail.com | Tel: (11)95047-1337</h1>
+        
+        <p class="editfoot1">&copy; Copyright 2019 - JBD Tech</p>
+    </footer>
+</div>
+
+
+
+
+</body>
+</html>

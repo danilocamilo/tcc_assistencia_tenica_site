@@ -1,0 +1,53 @@
+body{
+	background: #EFEFEF;
+	font-family:"Lucida Sans Unicode", "Lucida Sans", "DeJavu Sans","Verdana", "sans-serif";
+}
+.create-box{
+	background: #DF5B5D;
+	border: 10px dashed #FEFEFE;
+	max-width: 550px;
+	min-height: 88px;
+	text-align: center;
+	margin: auto;
+}
+.create-boz form{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+.create-box form input{
+	display: block;
+	margin: 5px 10px;
+	vertical-align: center;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color:#43A8C7;
+}
+.divform{
+	margin-top: 2%
+}
+
+.color{
+	color:#007AF4
+}
+.editfoott1{
+ 	color: #fff;
+    text-align: center;
+    font-family: 'Bahnschrift';
+    }
+
+.editfoott2{
+	color: #fff;
+	font-family: 'Segoe UI';
+	text-align: center;
+	font-size: 15px;
+    }
+
+    .fixarRodapee {
+    margin-left: -20%;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #007af4;
+    }

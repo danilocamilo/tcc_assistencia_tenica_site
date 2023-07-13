@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" type="text/css" href="css.css">
+<link rel="stylesheet" type="text/css" href="form.css">
+    <style type="text/css">
+      body{
+        background-image: url('imgs/baseacesso.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+    </style>
+
+    <title>Acesso</title>
+</head>
+<body>
+<nav class="menu">
+ 
+ <div class="logo"></div>
+
+<ul>
+    <li><a href="Index.html" class="menu">Home</a></li>
+    <li><a href="servicos.html" class="menu">Serviços</a></li>
+    <li><a href="agendamento.html" class="menu">Agendamento</a></li>
+    <li><a href="qs.html" class="menu">Sobre nós</a></li>
+    <li><a href="Acesso.html" class="menu">Acesso</a></li>
+    <li><a href="fcns.html" class="menu">Fale Conosco</a></li>
+</ul>
+
+
+
+
+</nav>
+
+ <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="post" action="BackEnd\index.html"> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="nome_login">E-mail</label>
+            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. contato@jbdtech.com"/>
+          </p>
+           
+          <p> 
+            <label for="email_login">Senha</label>
+            <input id="email_login" name="email_login" required="required" type="password" placeholder="senha" /> 
+          </p>
+           
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Logar" /> 
+          </p>
+           
+          
+        </form>
+      </div>
+ 
+     
+    </div>
+  </div> 
+<div class="container body-content">
+    <footer class="fixarRodape1">
+    
+        <h1 class="editfootf2">EMAIL: jbd.tech@gmail.com | Tel: (11)95047-1337</h1>
+        <p class="editfootf1">&copy; Copyright 2019 - JBD Tech</p>
+    </footer>
+</div>
+
+</body>
+</html>

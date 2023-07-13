@@ -1,0 +1,535 @@
+*{margin: 0;padding: 0;}
+nav.menu{
+	height: 90px;
+	background-color: #007af4;
+}
+nav.menu ul{
+	display: flex;
+	position: absolute;
+	height: 90px;
+	line-height: 90px;
+	list-style: none;
+	right:  40px;
+}
+nav.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 0 15px;
+	font-family: 'Bahnschrift'
+}
+div.logo{
+	width: 220px;
+	height: 220px;
+	background: url('imgs/logotipo.png')no-repeat;
+	background-size: 100%;
+	position: absolute;
+	left: 15px;
+	top: -10px;
+}
+
+div.slide{
+	width: 100%;
+	height: 46.7vh; 
+	position: relative;
+	overflow: hidden;
+}
+
+div.slide .container{
+	width: calc(100% * 3);
+	height: 100%;
+	background-position: center;
+	background-size: contain;
+	display: flex;
+	transition: .4s;
+	position: absolute;
+	left: 0;
+}
+
+div.slide .container div{
+	width: calc(100% / 3);
+	height: 100%;
+	background-color: #000;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+div.foot{
+	background-color: #000000;
+	background-size: 100%;
+	width: 100%;
+	height: 10%
+}
+
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #007af4;
+    }
+
+.editfoot1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Bahnschrift';
+    }
+
+.editfoot2{
+	color: #fff;
+	font-family: 'Segoe UI';
+	text-align: center;
+	font-size: 15px;
+    }
+
+div.icons {
+	width: 100%;
+	position: absolute;
+	height: 250px;
+	top: 61%;
+}
+
+
+.alignic{
+text-align: center;
+}
+
+.posicel{
+
+	margin-top: 16%;
+	position: relative;
+
+}
+
+div.posi1{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	padding-top: 60px;
+
+
+}
+
+div.serv1{
+	background-image: url('imgs/servicos1.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-left: 6%;
+	margin-right: 14%;
+	text-align: center;
+
+}
+
+div.serv2{
+	background-image: url('imgs/servicos2.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-right: 14%;
+	text-align: center;
+}
+
+div.serv3{
+	background-image: url('imgs/servicos3.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+h1.formatafont{
+	font-family: 'Bahnschrift';
+	font-size: 17px;
+	color: #fff;
+	margin-top: 200px;
+	background-color: #007af4;
+	border-radius: 7px;
+	border-color: white;
+	border-style: inset;
+}
+input.posib{
+	margin-top: 20px;
+	position: relative;
+	background-color: #007af4;
+	border-style: ridge;
+	border-radius: 5px;
+	border-color:white; 
+	width: 185px;
+	height: 33px;
+	color: white;
+	font-family: 'Bahnschrift';
+	font-size: 17px;
+	
+}
+input.posib:hover { 
+	cursor: pointer;
+	 }
+
+
+div.posi2{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	padding-top: 50px;
+}
+div.serv5{
+	background-image: url('imgs/servicos5.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-left: 6%;
+	margin-right: 14%;
+	text-align: center;
+
+}
+
+div.serv6{
+	background-image: url('imgs/servicos6.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-right: 14%;
+	text-align: center;
+}
+
+div.serv7{
+	background-image: url('imgs/servicos7.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+div.posi3{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	padding-top: 50px;
+}
+div.serv8{
+	background-image: url('imgs/servicos8.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-left: 6%;
+	margin-right: 14%;
+	text-align: center;
+
+}
+
+div.serv9{
+	background-image: url('imgs/servicos9.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-right: 14%;
+	text-align: center;
+}
+
+div.serv10{
+	background-image: url('imgs/servicos10.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+
+div.posi4{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	padding-top: 50px;
+}
+div.serv11{
+	background-image: url('imgs/servicos11.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-left: 6%;
+	margin-right: 14%;
+	text-align: center;
+
+}
+
+div.serv12{
+	background-image: url('imgs/servicos12.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-right: 14%;
+	text-align: center;
+}
+
+div.serv13{
+	background-image: url('imgs/servicos13.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+div.posi5{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	padding-top: 50px;
+}
+div.serv14{
+	background-image: url('imgs/servicos14.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-left: 6%;
+	margin-right: 14%;
+	text-align: center;
+
+}
+
+div.serv15{
+	background-image: url('imgs/servicos15.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-right: 14%;
+	text-align: center;
+}
+
+div.serv16{
+	background-image: url('imgs/servicos16.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+
+div.faixa{
+	background-image: url('imgs/faixaservicos.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 536px;
+	height: 100px;
+	margin-left: 29%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	position: relative;
+}
+
+div.faixaqs{
+	background-image: url('imgs/faixaquemsomos.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 536px;
+	height: 100px;
+	margin-left: 28%;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	position: relative;
+}
+
+div.faixafc{
+	background-image: url('imgs/faixafc.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 536px;
+	height: 100px;
+	margin-left: 30%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	position: relative;
+}
+
+div.faixaagendamento{
+	background-image: url('imgs/faixaagendamento.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 536px;
+	height: 100px;
+	margin-left: 28%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	position: relative;
+	
+}
+
+div.textoqs{
+	margin-left: 12%;
+	width: 1000px;
+	height: 170px;
+	display: flex;
+	padding-top: 10px;
+	text-align: center;
+	
+}
+
+div.textoqs h2{
+    font-size: 170%;
+    font-family: 'Bahnschrift';
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid;
+	border-color: #fff;
+	
+  }
+
+div.qsicn{
+width: 100%;
+height: 400px;
+display: flex;
+margin-left: -6%;
+padding-top: 20px;
+position: relative;
+}
+
+div.qsicn1{
+    background-image: url('imgs/iconeqs1.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin-left: 10%;
+}
+div.qsicn3{
+background-image: url('imgs/iconeqs3.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+div.qsicn2{
+    background-image: url('imgs/iconeqs2.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+div.posictts{
+width: 100%;
+height: 275px;
+padding-top: 10px;
+position: relative;
+display: flex;
+text-align: center;
+margin-left: -7%;
+}
+div.wpp{
+    background-image: url('imgs/wpp.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin-left: 33%;
+}
+div.fb{
+	background-image: url('imgs/1.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin-left: 5%;
+}
+div.tt{
+	background-image: url('imgs/2.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin-left: 5%;
+}
+
+div.ig{
+	background-image: url('imgs/3.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin-left: 5%;
+}
+div.gm{
+	background-image: url('imgs/4.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin-left: 5%;
+}
+h1.formataicones{
+	font-family: 'Bahnschrift';
+	font-size: 17px;
+	color: #fff;
+	margin-top: 120px;
+}
+
+div.dadosfunc{
+	position: relative;
+	width: 430px; 
+	height: 600px;
+	margin-left: 31%;
+	margin-top: 2%;
+	background-image: url('imgs/dados\ web.png');
+	border-style: outset;
+	border-radius: 10px;
+	border-color: #007af4;
+}
+div.faixadados{
+	background-image: url('imgs/faixadados.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 430px;
+	height: 78px;
+	margin-left: 31%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-radius: 10px;
+	position: relative;
+}
+div.mensagens{
+	background-image: url('imgs/mensagens.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 1060px;
+	height: 1200px;
+	margin-left: 11%;
+	position: relative;
+}

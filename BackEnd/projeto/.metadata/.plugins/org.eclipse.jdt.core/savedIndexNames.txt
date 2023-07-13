@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+Z:\2019\TCC Site\projeto\.metadata\.plugins\org.eclipse.jdt.core
+224029962.index
+3703679151.index
